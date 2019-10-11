@@ -1,0 +1,76 @@
+html {
+    background-repeat: no-repeat;
+    background: background: rgba(28, 220, 71, 1.0);
+    background: -webkit-linear-gradient(bottom right, rgba(28, 220, 71, 1.0), rgba(99, 229, 238, 1.0));
+    background: -moz-linear-gradient(bottom right, rgba(28, 220, 71, 1.0), rgba(99, 229, 238, 1.0));
+    background: linear-gradient(to top left, rgba(28, 220, 71, 1.0), rgba(99, 229, 238, 1.0));
+    height: 100vw;
+}
+
+h1 {
+    text-align: center;
+    margin: 30px;
+    color: darkblue;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 80%;
+    max-width: 1400px;
+}
+
+.card_list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.card_item {
+    width: 20%;
+    border: 2px solid blue;
+    border-radius: 3% 3%;
+    margin-bottom: 20px;
+    padding: 10px;
+    color: darkblue;
+    text-align: center;
+    position: relative;
+}
+
+.card_answer {
+    display: none;
+}
+
+.back {
+    background-color: aliceblue;
+}
+
+.block {
+    display: block;
+}
+
+input, button {
+    width: 80%;
+    height: 25px;
+    margin: 2%;
+    padding: 5px;
+    cursor: pointer;
+    border: 1px solid darkblue;
+    background-color: lightskyblue;
+}
+
+button {
+    display: inline-block !important;
+    height: auto;
+}
+
+span {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    border: 1px solid black;
+    width: 15px;
+    height: 15px;
+    border-radius: 25%;
+    font-size: 12px;
+}
